@@ -1,0 +1,41 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 10px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-image: url("http://tsarvar.com/maps/csgo/dust-2-night/6.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin-top: -80px;
+}
+
+.page-header {
+    font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 400%;
+	padding-bottom: 30px;
+}
+
+.img-responsive1 {
+	height: 189.38px !important;
+
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
