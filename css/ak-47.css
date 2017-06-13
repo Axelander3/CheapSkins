@@ -1,17 +1,19 @@
  body {
     overflow-x: hidden;
-    background: url('http://tsarvar.com/maps/csgo/dust-2-night/6.jpg') no-repeat center center fixed;
+    background: url('http://i.imgur.com/gFhdbSt.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
  }
 
+/* Toggle Styles */
+
 .sidebar-text {
 
     font-family: 'Montserrat', sans-serif;
     color: white;
-}
+} 
 
 #wrapper.toggled {
     padding-left: 250px;
@@ -140,45 +142,26 @@ input[type=text] {
     margin-top: 10px;
 }
 
-.container {
-    margin-top: -40px;
-}
-.blurred {
-    filter: blur(4px);
-    -webkit-filter: blur(2px);  
-}
-
-.page-header {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 400%;
-    padding-bottom: 20px;
+.header {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 400%;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
-.img-responsive {
-    height: 150px !important;
-    margin: 0px;
-
+.price {
+	float: right;
+	margin-right: 50px;
 }
 
-.thumbnail {
-    margin:0px;
-    opacity: 0.8;
+.list-group-item {
+
+	font-family: 'Montserrat', sans-serif;
 }
 
-.thumb {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 2px;  
-}
-
-footer {
-    margin: 50px 0;
-}
-
-.copyright {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    padding: 0px;
+.list-group {
+	margin-left: 8%;
+	margin-right: 8%;
 }

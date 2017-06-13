@@ -1,55 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv-se">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
+
+
     <title>Cheap Skins</title>
 
-        <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Bootstrap Javascript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- Custom CSS/Fonts/JS -->
-    <link href="css/pistols.css" rel="stylesheet">
-    <link href="css/backarrow.css" rel="stylesheet">
+    <!-- Egen CSS -->
+    <link href="css/pistols2.css" rel="stylesheet">
+
+    <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+    <!-- Egen JS --> 
     <script src="js/myscripts.js"></script>
 
 </head>
 
 <body>
-    <!-- Page Content -->
 
-
-        <div id="myModal" class="modal">
+    <div id="myModal" class="modal">
             <div class="modal-content">
                 <div class="modal-con">
                     <span id="modalclose" onclick="removeModal()" >&times;</span>
-                    <div id="prices">
-                    <p>USP-S</p>
-                    <p>Prices here.</p>
+                    <div>
+                    <p id="usp-header">USP-S</p>
+                    <p id="usp-text">
+                        
+                        The USP-S is a silencer-compatible pistol featured in Counter-Strike: Global Offensive  and was added into the game on the August 14, 2013 Arms Deal update. It is a successor of the USP from previous Counter-Strike games.
+                    </p>
                     </div>
                 </div>
             </div>
         </div>
-    <div id="wholePage" class="page">
 
-    <div class="backarrow-container">
-    <a href="Javascript:goBack()">
-        <img class="backarrow" src="http://www.clker.com/cliparts/o/T/N/3/f/J/back-arrow-hi.png" alt="click on it to go back to the previous page">
-    </a> 
-    </div>
+    <div id="wrapper">
 
-    <div class="container">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="linav-logo">
+                    <img class="nav-logo" src="https://vignette2.wikia.nocookie.net/agk/images/3/33/CS_GO.png/revision/latest?cb=20150621102555">
+                </li>
+                <li>
+                    <a href="index.html" class="sidebar-text">Home</a>
+                </li>
+                <li>
+                    <a href="pistols.html" class="sidebar-text">Pistols</a>
+                </li>
+                <li>
+                    <a href="rifles.html" class="sidebar-text">Rifles</a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar-text">SMGs</a>
+                </li>
+               <!--  <li>
+                    <a href="#" class="sidebar-text">Heavys</a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar-text">Knives</a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar-text">Cases</a>
+                </li>
+               <li>
+                    <a href="#" class="sidebar-text">Music Kits</a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar-text">Pins</a>
+                </li>-->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container">
 
 
         <div class="row">
@@ -136,7 +175,9 @@
         </footer>
 
     </div>
+            
 
+        </div>
     </div>
 </body>
 

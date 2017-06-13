@@ -1,11 +1,6 @@
-function goBack() {
-	window.history.back();
-}
-
-
 function openModal() {
 	var modal =  document.getElementById('myModal');
-	var page = document.getElementById('wholePage');
+	var page = document.getElementById('wrapper');
 
 	console.log("hej");
 	modal.style.display = "block";
@@ -15,7 +10,7 @@ function openModal() {
 
 function removeModal() {
 	var modal =  document.getElementById('myModal');
-	var page = document.getElementById('wholePage');
+	var page = document.getElementById('wrapper');
 	modal.style.display = "none";
 	page.className = "page";
 }
